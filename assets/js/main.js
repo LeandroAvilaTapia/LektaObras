@@ -1,10 +1,4 @@
-/**
-* Template Name: UpConstruction
-* Updated: May 30 2023 with Bootstrap v5.3.0
-* Template URL: https://bootstrapmade.com/upconstruction-bootstrap-construction-website-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
+
 document.addEventListener('DOMContentLoaded', () => {
   "use strict";
 
@@ -116,21 +110,6 @@ document.addEventListener('DOMContentLoaded', () => {
         filter: portfolioFilter,
         sortBy: portfolioSort
       });
-
-      let menuFilters = document.querySelectorAll('.portfolio-isotope .portfolio-flters li');
-      menuFilters.forEach(function(el) {
-        el.addEventListener('click', function() {
-          document.querySelector('.portfolio-isotope .portfolio-flters .filter-active').classList.remove('filter-active');
-          this.classList.add('filter-active');
-          portfolioIsotope.arrange({
-            filter: this.getAttribute('data-filter')
-          });
-          if (typeof aos_init === 'function') {
-            aos_init();
-          }
-        }, false);
-      });
-
     });
 
   }
@@ -211,3 +190,91 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 
 });
+
+/* Este código selecciona el elemento del documento con el id "header" y le asigna un bloque de código HTML para construir una barra de navegación. El código HTML contiene una estructura de navegación típica de una barra de navegación de Bootstrap, con enlaces a diferentes páginas y un formulario de búsqueda.
+El código se encarga de asignar el contenido HTML al elemento con el id "header", lo que resulta en la visualización de la barra de navegación en ese lugar dentro del documento HTML.
+*/
+document.getElementById(
+  "header"
+).innerHTML = ` <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
+
+<a href="index.html" class="logo d-flex align-items-center">
+  <!-- Uncomment the line below if you also wish to use an image logo -->
+  <img src="assets/img/favicon.png" alt="logo"> 
+  <h1>LektaObras</h1>
+</a>
+
+<i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
+<i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
+<nav id="navbar" class="navbar">
+  <ul>
+    <li><a href="index.html">Inicio</a></li>
+    <li><a href="about.html">Sobre Nosotros</a></li>
+    <li><a href="services.html">Servicios</a></li>
+    
+    <li class="dropdown"><a href="projects.html"><span>Proyectos</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+      <ul>
+        <li><a href="#">Dropdown 1</a></li>              
+        <li><a href="#">Dropdown 2</a></li>
+        <li><a href="#">Dropdown 3</a></li>
+        <li><a href="#">Dropdown 4</a></li>
+        <li><a href="#">Dropdown 5</a></li>
+        <li><a href="#">Dropdown 6</a></li>
+      </ul>
+    </li>
+    <li><a href="contact.html">Contacto</a></li>
+  </ul>
+</nav><!-- .navbar -->
+
+</div>
+`;
+
+document.getElementById(
+  "footer"
+).innerHTML = `
+<div class="footer-content position-relative">
+  <div class="container">
+    <div class="row d-flex justify-content-between">
+
+      <div class="col-lg-4 col-md-6">
+        <div class="footer-info">
+          <h3>LektaObras</h3>
+          <p>
+            Florencio Varela <br>
+            Vicente Lopes y Planes 259<br><br>
+            <strong>Tel:</strong> 011-2114-7378<br>
+            <strong>Email:</strong> lektaobras@yahoo.com<br>
+          </p>
+          <div class="social-links d-flex mt-3">
+            <a href="https://twitter.com/LektaObras" class="d-flex align-items-center justify-content-center"><i class="bi bi-twitter"></i></a>
+            <a href="https://www.facebook.com/profile.php?id=100086296131156" class="d-flex align-items-center justify-content-center"><i class="bi bi-facebook"></i></a>
+            <a href="https://www.instagram.com/lektaobras/" class="d-flex align-items-center justify-content-center"><i class="bi bi-instagram"></i></a>
+            <a href="https://www.linkedin.com/company/lekta-obras/" class="d-flex align-items-center justify-content-center"><i class="bi bi-linkedin"></i></a>
+          </div>
+        </div>
+      </div><!-- End footer info column-->
+
+      <div class="col-lg-2 col-md-3 footer-links flex-column">
+        <h4>Enlaces útiles</h4>
+        <ul >
+          <li><a href="./index.html">Inicio</a></li>
+          <li><a href="#">Sobre Nosotros</a></li>
+          <li><a href="#">Servicios</a></li>
+          <li><a href="#">Proyectos</a></li>
+          <li><a href="#">Contacto</a></li>
+        </ul>
+      </div><!-- End footer links column-->
+
+    </div>
+  </div>
+</div>
+
+<div class="footer-legal text-center position-relative">
+  <div class="container">
+    <div class="copyright">
+      &copy; Copyright <strong><span>LektaObras</span></strong>. All Rights Reserved
+    </div>
+  </div>
+</div>
+
+`;
