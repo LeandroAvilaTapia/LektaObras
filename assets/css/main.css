@@ -2675,3 +2675,14 @@ section {
 .footer .footer-legal .credits a {
   color: var(--color-primary);
 }
+@media (max-width: 768px) {
+  .footer-links ul li{
+    display: inline-block;
+  }
+  .footer-links, .footer-info{
+    text-align: center;
+  }
+  .social-links{
+    justify-content: center;
+  }
+}
