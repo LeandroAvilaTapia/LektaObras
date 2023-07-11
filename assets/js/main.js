@@ -278,3 +278,13 @@ document.getElementById(
 </div>
 
 `;
+
+function ocultarHijo() {
+  var hijo = document.getElementById("hijo");
+  hijo.classList.add("oculto");
+}
+
+function mostrarHijo() {
+  var hijo = document.getElementById("hijo");
+  hijo.classList.remove("oculto");
+}
