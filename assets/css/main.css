@@ -1207,7 +1207,9 @@ section {
   font-family: var(--font-secondary);
   margin: 30px 0;
 }
-
+.about{
+  background-color: #a8b9b0;
+}
 @media (min-width: 991px) {
   .about h2 {
     max-width: 65%;
@@ -2658,6 +2660,11 @@ section {
 
 .footer .footer-content .footer-links {
   margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content:flex-start;
+  align-items: center;
+
 }
 
 .footer .footer-content .footer-links ul {
@@ -2699,12 +2706,16 @@ section {
 .footer .footer-legal .credits a {
   color: var(--color-primary);
 }
-@media (max-width: 768px) {
+@media (max-width: 991px) {
   .footer-links ul li{
     display: inline-block;
   }
   .footer-links, .footer-info{
     text-align: center;
+  }
+  .footer-links{
+    text-align: center;
+    margin-top: 1rem;
   }
   .social-links{
     justify-content: center;

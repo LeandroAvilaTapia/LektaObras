@@ -208,40 +208,31 @@ document.getElementById(
 <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
 <nav id="navbar" class="navbar">
   <ul>
-    <li><a href="index.html">Inicio</a></li>
-    <li><a href="about.html">Sobre Nosotros</a></li>
-    <li><a href="services.html">Servicios</a></li>
-    
-    <li class="dropdown"><a href="projects.html"><span>Proyectos</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
-      <ul>
-        <li><a href="#">Dropdown 1</a></li>              
-        <li><a href="#">Dropdown 2</a></li>
-        <li><a href="#">Dropdown 3</a></li>
-        <li><a href="#">Dropdown 4</a></li>
-        <li><a href="#">Dropdown 5</a></li>
-        <li><a href="#">Dropdown 6</a></li>
-      </ul>
-    </li>
-    <li><a href="contact.html">Contacto</a></li>
+    <li><a href="#">Inicio</a></li>
+    <li><a href="#about">Sobre Nosotros</a></li>
+    <li><a href="#services">Servicios</a></li>
+    <li><a href="#constructions">Proyectos</a></li>    
+    <li><a href= "#get-started" >Contacto</a></li>
   </ul>
 </nav><!-- .navbar -->
 
 </div>
 `;
 
+
 document.getElementById(
   "footer"
-).innerHTML = `
+).innerHTML = ` 
 <div class="footer-content position-relative">
   <div class="container">
     <div class="row d-flex justify-content-between">
 
-      <div class="col-lg-4 col-md-6">
+      <div class="col-lg-4 col-md-12">
         <div class="footer-info">
           <h3>LektaObras</h3>
           <p>
             Florencio Varela <br>
-            Vicente Lopes y Planes 259<br><br>
+            Vicente Lopez y Planes 259<br><br>
             <strong>Tel:</strong> 011-2114-7378<br>
             <strong>Email:</strong> lektaobras@yahoo.com<br>
           </p>
@@ -254,16 +245,9 @@ document.getElementById(
         </div>
       </div><!-- End footer info column-->
 
-      <div class="col-lg-2 col-md-3 footer-links flex-column">
-        <h4>Enlaces útiles</h4>
-        <ul >
-          <li><a href="./index.html">Inicio</a></li>
-          <li><a href="#">Sobre Nosotros</a></li>
-          <li><a href="#">Servicios</a></li>
-          <li><a href="#">Proyectos</a></li>
-          <li><a href="#">Contacto</a></li>
-        </ul>
-      </div><!-- End footer links column-->
+      <div class="col-lg-6 col-md-12">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3275.721448787099!2d-58.273381199999996!3d-34.81294919999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a329648c986f67%3A0x2d3f32ed63eb906c!2sVicente%20L%C3%B3pez%20y%20Planes%20259%2C%20B1888IXE%20Florencio%20Varela%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1689161754730!5m2!1ses-419!2sar" frameborder="0" style="border:0; width: 100%; height: 384px;" allowfullscreen></iframe>
+      </div><!-- End Google Maps -->
 
     </div>
   </div>
@@ -278,6 +262,8 @@ document.getElementById(
 </div>
 
 `;
+
+
 
 function ocultarHijo() {
   var hijo = document.getElementById("hijo");
