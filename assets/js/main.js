@@ -208,9 +208,10 @@ document.getElementById(
 <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
 <nav id="navbar" class="navbar">
   <ul>
-    <li><a href="#">Inicio</a></li>
+    <li><a href="/index.html">Inicio</a></li>
     <li><a href="#about">Sobre Nosotros</a></li>
     <li><a href="#services">Servicios</a></li>
+    <li><a href="/clientes.html">Clientes</a></li>
     <li><a href="#constructions">Proyectos</a></li>    
     <li><a href= "#get-started" >Contacto</a></li>
   </ul>
@@ -218,6 +219,7 @@ document.getElementById(
 
 </div>
 `;
+
 
 
 document.getElementById(
@@ -264,6 +266,31 @@ document.getElementById(
 `;
 
 
+document.querySelector('.headerClientes').innerHTML = ` <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
+
+<a href="index.html" class="logo d-flex align-items-center">
+  <!-- Uncomment the line below if you also wish to use an image logo -->
+  <img src="assets/img/favicon.png" alt="logo"> 
+  <h1>LektaObras</h1>
+</a>
+
+<i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
+<i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
+<nav id="navbar" class="navbar">
+  <ul>
+    <li><a href="/index.html">Inicio</a></li>
+    <li><a href="/index.html#about">Sobre Nosotros</a></li>
+    <li><a href="/index.html#services">Servicios</a></li>
+    <li><a href="/clientes.html">Clientes</a></li>
+    <li><a href="/index.html#constructions">Proyectos</a></li>    
+    <li><a href="/index.html#get-started" >Contacto</a></li>
+  </ul>
+</nav><!-- .navbar -->
+
+</div>
+`;
+
+
 
 function ocultarHijo() {
   var hijo = document.getElementById("hijo");
@@ -274,3 +301,5 @@ function mostrarHijo() {
   var hijo = document.getElementById("hijo");
   hijo.classList.remove("oculto");
 }
+
+
