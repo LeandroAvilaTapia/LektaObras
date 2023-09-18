@@ -308,3 +308,30 @@ function mostrarHijo() {
   var hijo = document.getElementById("hijo");
   hijo.classList.remove("oculto");
 }
+
+
+
+function onYouTubeIframeAPIReady() {
+  var player;
+  player = new YT.Player('muteYouTubeVideoPlayer', {
+  videoId: 'vb7Y5sBlp-s', // El ID del video de Youtube
+  width: 660, // Ancho del reproductor (en px)
+  height: 435, // Alto del reproductor (en px)
+  playerVars: {
+  autoplay: 1, // Auto-play cuando la página cargue
+  controls: 0, // Mostrar los botones de pause/play en el reproductor
+  showinfo: 0, // Esconder el titulo del vídeo
+  modestbranding: 0, // Esconder el logo de YouTube
+  loop: 1, // Reproducir el vídeo en bucle
+  fs: 0, // Esconder el botón de mostrar en pantalla completa
+  cc_load_policy: 0, // Escoder los subtitulos que se muestran por defecto
+  iv_load_policy: 3, // Escoder las anotaciones que se muestran por defecto
+  autohide: 0 // Esconder los controles del vídeo cuando se esté reproduciendo
+  },
+  events: {
+  onReady: function(e) {
+  e.target.mute();
+  }
+  }
+  });
+ }
