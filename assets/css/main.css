@@ -2738,9 +2738,9 @@ section {
 
 .slider .slide-track {
   display: flex;
-  animation: scroll 40s linear infinite;
-  -webkit-animation: scroll 40s linear infinite;
-  width: calc(200px * 14);
+  animation: scroll 50s linear infinite;
+  -webkit-animation: scroll 50s linear infinite;
+  width: calc(200px * 76);
 }
 
 .slider .slide {
@@ -2757,7 +2757,11 @@ section {
       transform: translateX(0);
   }
   100% {
-      -webkit-transform: translateX(calc(-200px * 7));
-      transform: translateX(calc(-200px * 7));
+      -webkit-transform: translateX(calc(-200px * 38));
+      transform: translateX(calc(-200px * 38));
   }
+}
+
+.list-group-item{
+  background: #a8b9b0;
 }

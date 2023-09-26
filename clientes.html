@@ -41,82 +41,43 @@
   </header><!-- End Header -->
 
   <main id="main">
+    <div id="app">
+      <!-- ======= Breadcrumbs ======= -->
+      <div class="breadcrumbs d-flex align-items-center"
+        style="background-image: url('assets/img/breadcrumbs-bg.jpg');">
+        <div class="container position-relative d-flex flex-column align-items-center" data-aos="fade">
 
-    <!-- ======= Breadcrumbs ======= -->
-    <div class="breadcrumbs d-flex align-items-center" style="background-image: url('assets/img/breadcrumbs-bg.jpg');">
-      <div class="container position-relative d-flex flex-column align-items-center" data-aos="fade">
+          <h2>Clientes</h2>
 
-        <h2>Clientes</h2>
-
-      </div>
-    </div><!-- End Breadcrumbs -->
-
-    <section class="clientes">
-      <div class="container">
-        <div class="slider">
-          <div class="slide-track">
-            <div class="slide">
-              <img src="./assets/img/slider/1.png" alt="">
-            </div>
-
-            <div class="slide">
-              <img src="./assets/img/slider/2.png" alt="">
-            </div>
-
-            <div class="slide">
-              <img src="./assets/img/slider/3.png" alt="">
-            </div>
-
-            <div class="slide">
-              <img src="./assets/img/slider/4.png" alt="">
-            </div>
-
-            <div class="slide">
-              <img src="./assets/img/slider/5.png" alt="">
-            </div>
-
-            <div class="slide">
-              <img src="./assets/img/slider/6.png" alt="">
-            </div>
-
-            <div class="slide">
-              <img src="./assets/img/slider/7.png" alt="">
-            </div>
-
-            <div class="slide">
-              <img src="./assets/img/slider/1.png" alt="">
-            </div>
-
-            <div class="slide">
-              <img src="./assets/img/slider/2.png" alt="">
-            </div>
-
-            <div class="slide">
-              <img src="./assets/img/slider/3.png" alt="">
-            </div>
-
-            <div class="slide">
-              <img src="./assets/img/slider/4.png" alt="">
-            </div>
-
-            <div class="slide">
-              <img src="./assets/img/slider/5.png" alt="">
-            </div>
-
-            <div class="slide">
-              <img src="./assets/img/slider/6.png" alt="">
-            </div>
-
-            <div class="slide">
-              <img src="./assets/img/slider/7.png" alt="">
-            </div>
-
-          </div>
         </div>
+      </div><!-- End Breadcrumbs -->
 
-      </div>
-    </section>
+      <section class="clientes bg-white">
+        <div class="container">
+          <div class="slider ">
+            <div class="slide-track">
+              <div v-for="cliente in clientesVue">
+                <div class="slide" >
+                  <img :src="cliente.url" alt="">
+                </div>
+              </div>
+              <div v-for="cliente in clientesVue">
+                <div class="slide" >
+                  <img :src="cliente.url" alt="">
+                </div>
+              </div>
 
+            </div>
+          </div>
+
+        </div>
+      </section>
+      <section class="d-flex flex-wrap">
+        <ul class="list-group list-group-flush rounded-1 col-lg-4 col-md-12 " v-for="cliente in clientesVue">
+          <li class="list-group-item m-1">{{cliente.id}}: {{cliente.name}}</li>
+        </ul>
+      </section>
+    </div>
   </main><!-- End #main -->
 
   <!-- ======= Footer ======= -->
@@ -131,6 +92,7 @@
   <div id="preloader"></div>
 
   <!-- Vendor JS Files -->
+  <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="assets/vendor/aos/aos.js"></script>
   <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
@@ -141,6 +103,7 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+  <script src="./assets/js/script.js"></script>
 
 </body>
 
