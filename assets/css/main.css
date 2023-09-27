@@ -10,6 +10,8 @@
   --color-default: #364d59;
   --color-primary: #587162;
   --color-secondary: #52565e;
+  --color--verdeOscuro: #587162;
+  --cantidadClientes: 0;
 }
 
 /* Smooth scroll behavior */
@@ -55,10 +57,10 @@ section {
 }
 
 .section-bg {
-  background-color: #a8b9b0;
+  background-color: #587162;
 }
 #get-started{
-  background-color: #587162;
+  background-color: #a8b9b0;
 }
 
 .section-header {
@@ -703,6 +705,7 @@ section {
 /*--------------------------------------------------------------
 # Services Section
 --------------------------------------------------------------*/
+
 .services .service-item {
   padding: 40px;
   background: #fff;
@@ -2738,9 +2741,9 @@ section {
 
 .slider .slide-track {
   display: flex;
-  animation: scroll 50s linear infinite;
-  -webkit-animation: scroll 50s linear infinite;
-  width: calc(200px * 76);
+  animation: scroll 60s linear infinite;
+  -webkit-animation: scroll 60s linear infinite;
+  width: calc(200px * (var(--cantidadClientes)*2));
 }
 
 .slider .slide {
@@ -2757,8 +2760,8 @@ section {
       transform: translateX(0);
   }
   100% {
-      -webkit-transform: translateX(calc(-200px * 38));
-      transform: translateX(calc(-200px * 38));
+      -webkit-transform: translateX(calc(-200px * var(--cantidadClientes)));
+      transform: translateX(calc(-200px * var(--cantidadClientes)));
   }
 }
 
