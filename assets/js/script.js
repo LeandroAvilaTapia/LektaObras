@@ -191,6 +191,53 @@ let clientes = [
   },
 ];
 
+let proyectos = [
+  {
+    Id: 1,
+    name: "Whirlpool",
+    Imágenes: {
+      url1: "https://res.cloudinary.com/dntf2dwro/image/upload/v1695837338/Lekta/Proyectos/Whirlpool/wvbce6chu76xwxmmhb5o.jpg",
+      url2: "https://res.cloudinary.com/dntf2dwro/image/upload/v1695837338/Lekta/Proyectos/Whirlpool/ygenby6gnakcihdh20ow.jpg",
+      url3: "https://res.cloudinary.com/dntf2dwro/image/upload/v1695837338/Lekta/Proyectos/Whirlpool/eb7l0konq3c41r7utzxe.jpg",
+      url4: "https://res.cloudinary.com/dntf2dwro/image/upload/v1695837338/Lekta/Proyectos/Whirlpool/x4z76llwfwstmd5fgdk5.jpg",
+      url5: "https://res.cloudinary.com/dntf2dwro/image/upload/v1695837338/Lekta/Proyectos/Whirlpool/wsskrwh0iykmpkmmwstk.jpg",
+      url6: "https://res.cloudinary.com/dntf2dwro/image/upload/v1695837338/Lekta/Proyectos/Whirlpool/otr8jjneazjabkbfuseq.jpg",
+      url8: "https://res.cloudinary.com/dntf2dwro/image/upload/v1695837338/Lekta/Proyectos/Whirlpool/tjsdozqd6dvgnr3wytpq.jpg",
+      url9: "https://res.cloudinary.com/dntf2dwro/image/upload/v1695837338/Lekta/Proyectos/Whirlpool/n4puqcdt4earvry3vhiq.jpg",
+      url10: "https://res.cloudinary.com/dntf2dwro/image/upload/v1695837338/Lekta/Proyectos/Whirlpool/a8znszr9aao85ob5ektf.jpg",
+      url11: "https://res.cloudinary.com/dntf2dwro/image/upload/v1695837338/Lekta/Proyectos/Whirlpool/csajuebgn0jqqgeviy54.jpg",
+      url12: "https://res.cloudinary.com/dntf2dwro/image/upload/v1695837338/Lekta/Proyectos/Whirlpool/oo3yxd1karskqoiupgae.jpg",
+      url13: "https://res.cloudinary.com/dntf2dwro/image/upload/v1695837338/Lekta/Proyectos/Whirlpool/nbomamhrqcx99xqkjenk.jpg",
+      url14: "https://res.cloudinary.com/dntf2dwro/image/upload/v1695837338/Lekta/Proyectos/Whirlpool/mkgyfjvwo8saejvt1phm.jpg",
+      url15: "https://res.cloudinary.com/dntf2dwro/image/upload/v1695837338/Lekta/Proyectos/Whirlpool/azjhepstp8kpsko7osfe.jpg",
+      url16: "https://res.cloudinary.com/dntf2dwro/image/upload/v1695837338/Lekta/Proyectos/Whirlpool/xfqgmp7mwybbcgiifqeo.jpg",
+      url17: "https://res.cloudinary.com/dntf2dwro/image/upload/v1695837338/Lekta/Proyectos/Whirlpool/hxdhfwmro41e5kg8rph7.jpg",
+      url18: "https://res.cloudinary.com/dntf2dwro/image/upload/v1695837338/Lekta/Proyectos/Whirlpool/ozdsk7djgyud9fnucua4.jpg",
+      url19: "https://res.cloudinary.com/dntf2dwro/image/upload/v1695837338/Lekta/Proyectos/Whirlpool/uiyybrolaxattbp4xwwr.jpg",
+      url20: "https://res.cloudinary.com/dntf2dwro/image/upload/v1695837338/Lekta/Proyectos/Whirlpool/l4u2ky6lh655xnfni8ha.jpg",
+      url21: "https://res.cloudinary.com/dntf2dwro/image/upload/v1695837338/Lekta/Proyectos/Whirlpool/amih8v55entdhthlkykj.jpg",
+      url22: "https://res.cloudinary.com/dntf2dwro/image/upload/v1695837338/Lekta/Proyectos/Whirlpool/niuzmt6tkq4xitiol4bn.jpg",
+      url23: "https://res.cloudinary.com/dntf2dwro/image/upload/v1695837338/Lekta/Proyectos/Whirlpool/ugicksqw0vtpvyiovrpf.jpg",
+      url24: "https://res.cloudinary.com/dntf2dwro/image/upload/v1695837338/Lekta/Proyectos/Whirlpool/bjfvfkjs4ofo7jsjt7wl.jpg",
+      url25: "https://res.cloudinary.com/dntf2dwro/image/upload/v1695837338/Lekta/Proyectos/Whirlpool/l204tqyfaxsthwmcxepq.jpg",
+      url26: "https://res.cloudinary.com/dntf2dwro/image/upload/v1695837338/Lekta/Proyectos/Whirlpool/j10azdf2bsjslt8fiv0t.jpg",
+      url27: "https://res.cloudinary.com/dntf2dwro/image/upload/v1695837338/Lekta/Proyectos/Whirlpool/x0jaigfqyxa4gaymugwk.jpg",
+      url28: "https://res.cloudinary.com/dntf2dwro/image/upload/v1695837338/Lekta/Proyectos/Whirlpool/oxklbm7gvsvwlsbevecj.jpg",
+      url29: "https://res.cloudinary.com/dntf2dwro/image/upload/v1695837338/Lekta/Proyectos/Whirlpool/xc6sdu0ki10eynzzofys.jpg",
+      url30: "https://res.cloudinary.com/dntf2dwro/image/upload/v1695837338/Lekta/Proyectos/Whirlpool/mguy6vkzrbuqi0hclczz.jpg",
+    },
+  },
+  {
+    Id: 2,
+    name: "General Motors",
+    Imágenes: {
+      url1: "https://res.cloudinary.com/dntf2dwro/image/upload/v1694721145/samples/sheep.jpg",
+      url2: "https://res.cloudinary.com/dntf2dwro/image/upload/v1694721145/samples/sheep.jpg",
+      url3: "./assets/img/slider/6.png",
+    },
+  },
+];
+
 const { createApp } = Vue;
 
 const app = createApp({
@@ -200,26 +247,7 @@ const app = createApp({
       imagenes: [],
       currentIndex: 0,
       clientesVue: clientes,
-      proyectos: [
-        {
-          Id: 1,
-          name: "okasa",
-          Imágenes: {
-            url1: "https://res.cloudinary.com/dntf2dwro/image/upload/v1694721175/cld-sample-5.jpg",
-            url2: "./assets/img/slider/2.png",
-            url3: "https://res.cloudinary.com/dntf2dwro/image/upload/v1694721145/samples/sheep.jpg",
-          },
-        },
-        {
-          Id: 2,
-          name: "milca",
-          Imágenes: {
-            url1: "https://res.cloudinary.com/dntf2dwro/image/upload/v1694721145/samples/sheep.jpg",
-            url2: "https://res.cloudinary.com/dntf2dwro/image/upload/v1694721145/samples/sheep.jpg",
-            url3: "./assets/img/slider/6.png",
-          },
-        },
-      ],
+      proyectosVue: proyectos,
     };
   },
   methods: {
@@ -242,7 +270,7 @@ const app = createApp({
   },
   computed: {
     montarImagenes() {
-      const proyecto = this.proyectos.find((p) => p.Id === this.contadorID);
+      const proyecto = this.proyectosVue.find((p) => p.Id === this.contadorID);
       if (proyecto) {
         this.imagenes = Object.values(proyecto.Imágenes);
       } else {

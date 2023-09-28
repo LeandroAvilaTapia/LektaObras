@@ -10,7 +10,7 @@
   --color-default: #364d59;
   --color-primary: #587162;
   --color-secondary: #52565e;
-  --color--verdeOscuro: #587162;
+  --color--verdeClaro: #a8b9b0;
   --cantidadClientes: 0;
 }
 
@@ -2767,4 +2767,36 @@ section {
 
 .list-group-item{
   background: #a8b9b0;
+}
+
+.containerProyectos{
+  background-color: var(--color--verdeClaro);  
+  width: 100vw;
+  padding: 40px;
+  columns: 4;
+  column-gap: 40px;
+}
+.containerProyectos .box{
+  width: 100%;
+  margin-bottom: 10px;
+  break-inside: avoid;
+}
+.containerProyectos .box img{
+  max-width: 100%;
+  border-radius: 15px;
+}
+@media(max-width:1200px){
+  .containerProyectos{
+    columns: 3;
+  }
+}
+@media(max-width:768px){
+  .containerProyectos{
+    columns: 2;
+  }
+}
+@media(max-width:480px){
+  .containerProyectos{
+    columns: 1;
+  }
 }

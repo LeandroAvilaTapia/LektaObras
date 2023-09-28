@@ -53,8 +53,11 @@
         </div>
       </div><!-- End Breadcrumbs -->
       {{montarImagenes}}
+
+
+
       <div class="d-flex justify-content-center align-content-center gap-2 flex-wrap m-2">
-        <div class="card " v-for="proyecto in this.proyectos" style="width: 18rem;">
+        <div class="card " v-for="proyecto in this.proyectosVue" style="width: 18rem;">
           <img :src="proyecto.Imágenes.url1" class="card-img-top" alt="...">
           <div class="card-body text-center">
             <h5 class="card-title"> {{proyecto.name}} </h5>
@@ -66,13 +69,13 @@
           </div>
         </div>
       </div>
-
+<!--
       <div class="d-flex justify-content-center align-content-center m-2">
-        <div id="carouselExampleRide" class="carousel slide w-50" data-bs-ride="carousel">
+        <div id="carouselExampleRide" class="carousel slide" style="max-width: 50%;" data-bs-ride="carousel">
           <div class="carousel-inner">
             <div class="carousel-item" :class="{ 'active': currentIndex === index }"
               v-for="(imagen, index) in this.imagenes" data-bs-interval="3000">
-              <img :src="imagen" class="d-block w-100" alt="..." style="width: 1280px;">
+              <img :src="imagen" class="d-block w-100" alt="..." style="max-height: 600px;">
             </div>
           </div>
           <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="prev"
@@ -87,6 +90,13 @@
           </button>
         </div>
       </div>
+-->
+      <div class="containerProyectos">
+        <div class="box" v-for="(imagen, index) in this.imagenes">
+          <img :src="imagen" alt="...">
+        </div>
+      </div>
+
     </main><!-- End #main -->
   </div>
   <!-- ======= Footer ======= -->
