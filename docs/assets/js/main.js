@@ -223,7 +223,7 @@ document.getElementById(
     <li><a href="/index.html">Inicio</a></li>
     <li><a href="#about">Sobre Nosotros</a></li>
     <li><a href="#services">Servicios</a></li>
-    <li><a href="clientes.html">Clientes</a></li>
+    <li><a href="/LektaObras/clientes.html">Clientes</a></li>
     <li><a href="/LektaObras/proyectos.html">Proyectos</a></li>    
     <li><a href= "#get-started" >Contacto</a></li>
   </ul>
