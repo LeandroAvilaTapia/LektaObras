@@ -220,11 +220,11 @@ document.getElementById(
 <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
 <nav id="navbar" class="navbar">
   <ul>
-    <li><a href="/index.html">Inicio</a></li>
+    <li><a href="index.html">Inicio</a></li>
     <li><a href="#about">Sobre Nosotros</a></li>
     <li><a href="#services">Servicios</a></li>
-    <li><a href="/LektaObras/clientes.html">Clientes</a></li>
-    <li><a href="/LektaObras/proyectos.html">Proyectos</a></li>    
+    <li><a href="clientes.html">Clientes</a></li>
+    <li><a href="proyectos.html">Proyectos</a></li>    
     <li><a href= "#get-started" >Contacto</a></li>
   </ul>
 </nav><!-- .navbar -->
@@ -242,7 +242,7 @@ document.getElementById("footer").innerHTML = `
           <h3>LektaObras</h3>
           <p>
             Florencio Varela <br>
-            Vicente Lopez y Planes 259<br><br>
+            Dr. Pedro Bourel 3191 <br><br>
             <strong>Tel:</strong> 011-2114-7378<br>
             <strong>Email:</strong> lektaobras@yahoo.com<br>
           </p>
@@ -256,7 +256,7 @@ document.getElementById("footer").innerHTML = `
       </div><!-- End footer info column-->
 
       <div class="col-lg-6 col-md-12">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3275.721448787099!2d-58.273381199999996!3d-34.81294919999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a329648c986f67%3A0x2d3f32ed63eb906c!2sVicente%20L%C3%B3pez%20y%20Planes%20259%2C%20B1888IXE%20Florencio%20Varela%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1689161754730!5m2!1ses-419!2sar" frameborder="0" style="border:0; width: 100%; height: 384px;" allowfullscreen></iframe>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3275.872756384032!2d-58.28201790000001!3d-34.809143!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a32bdfbdc824ed%3A0x6d3cd9fcb03fe1!2sDr.%20Pedro%20Bourel%203191%2C%20B1887BPH%20Florencio%20Varela%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1758032294759!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
       </div><!-- End Google Maps -->
 
     </div>
@@ -287,12 +287,12 @@ document.querySelector(
 <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
 <nav id="navbar" class="navbar">
   <ul>
-    <li><a href="/index.html">Inicio</a></li>
-    <li><a href="/index.html#about">Sobre Nosotros</a></li>
-    <li><a href="/index.html#services">Servicios</a></li>
-    <li><a href="/clientes.html">Clientes</a></li>
-    <li><a href="/proyectos.html">Proyectos</a></li>    
-    <li><a href="/index.html#get-started" >Contacto</a></li>
+    <li><a href="index.html">Inicio</a></li>
+    <li><a href="index.html#about">Sobre Nosotros</a></li>
+    <li><a href="index.html#services">Servicios</a></li>
+    <li><a href="clientes.html">Clientes</a></li>
+    <li><a href="proyectos.html">Proyectos</a></li>    
+    <li><a href="index.html#get-started" >Contacto</a></li>
   </ul>
 </nav><!-- .navbar -->
 
