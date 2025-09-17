@@ -243,12 +243,10 @@ document.getElementById("footer").innerHTML = `
           <p>
             Florencio Varela <br>
             Dr. Pedro Bourel 3191 <br><br>
-            <strong>Tel:</strong> 011-2114-7378<br>
+            <strong>Tel:</strong> 011-7709-6799<br>
             <strong>Email:</strong> lektaobras@yahoo.com<br>
           </p>
           <div class="social-links d-flex mt-3">
-            <a href="https://twitter.com/LektaObras" class="d-flex align-items-center justify-content-center"><i class="bi bi-twitter"></i></a>
-            <a href="https://www.facebook.com/profile.php?id=100086296131156" class="d-flex align-items-center justify-content-center"><i class="bi bi-facebook"></i></a>
             <a href="https://www.instagram.com/lektaobras/" class="d-flex align-items-center justify-content-center"><i class="bi bi-instagram"></i></a>
             <a href="https://www.linkedin.com/company/lekta-obras/" class="d-flex align-items-center justify-content-center"><i class="bi bi-linkedin"></i></a>
           </div>
